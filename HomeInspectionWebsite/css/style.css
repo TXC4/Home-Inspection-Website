@@ -2,24 +2,14 @@
 
 /* Section 1 */
 
+.navbar-brand {
+	margin-left: 2%;
+	font-weight: 500;
+}
+
 #section1 {
 	background-color: #f2d974;
 	padding: 5% 0%;
-}
-
-#mainHeading {
-	margin: 5% 10% 2% 10%;
-}
-
-#mainHeading img {
-	float: left;
-	margin-right: 1.5%;
-}
-
-#mainHeading h3 {
-	top: 3%;
-	left: 10%;
-	font-family: sans-serif;
 }
 
 #headingText {
@@ -29,7 +19,16 @@
 }
 
 .download-button {
-	margin: 0% 3% 0% 10%;
+	margin: 0% auto 0% 20%;
+	animation: jello;
+	animation-duration: 1s;
+	animation-delay: 0.75s;
+}
+
+.download-button:hover {
+	background-color: #72abf7;
+	animation: rubberBand;
+	animation-duration: 0.5s;
 }
 
 /* Section 2 */
@@ -54,8 +53,22 @@
 }
 
 /* Section 3 */
+#howToUseHeading {
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+}
+
 .carousel-inner {
 	background-color: #965d62;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.carousel-caption {
+	position: relative;
+	left: 0;
+	top: 0;
 }
 
 .img-fluid {
@@ -66,10 +79,19 @@
 	margin-right: auto;
 }
 
+/* Section 4 */
+#div4 {
+	background-color: #534e52;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: #fff;
+}
+
 /* Footer */
 footer {
 	padding-top: 1%;
 	padding-bottom: 1%;
-	background-color: #f2d974;
+	background-color: #c7956d;
 	text-align: center;
 }
