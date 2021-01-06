@@ -1,11 +1,31 @@
 /* Color Palette: https://colorhunt.co/palette/219727 */
 
-/* Section 1 */
+/* Navbar */
 
 .navbar-brand {
 	margin-left: 2%;
 	font-weight: 500;
 }
+
+.navbar {
+	padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-nav {
+	padding-right: 2%;
+}
+
+.navbar-toggler {
+	margin-right: 2%;
+}
+
+.nav-item {
+	padding: 0 18px;
+	font-size: large;
+	font-weight: 600;
+}
+
+/* Section 1 */
 
 #section1 {
 	background-color: #f2d974;
@@ -19,7 +39,7 @@
 }
 
 .download-button {
-	margin: 0% auto 0% 20%;
+	margin: 0% auto 0% 15%;
 	animation: jello;
 	animation-duration: 1s;
 	animation-delay: 0.75s;
@@ -52,6 +72,15 @@
 	margin: 0% 10% 0% 10%;
 }
 
+.div2:hover {
+	animation: pulse;
+	animation-duration: 0.35s;
+}
+
+.div2 i {
+	margin-bottom: 3%;
+}
+
 /* Section 3 */
 #howToUseHeading {
 	text-align: center;
@@ -71,6 +100,14 @@
 	top: 0;
 }
 
+.carousel-caption h5 {
+	font-size: x-large;
+}
+
+.carousel-caption p {
+	font-size: large;
+}
+
 .img-fluid {
 	width: auto;
 	height: 50vh;
@@ -86,12 +123,48 @@
 	padding-top: 1%;
 	padding-bottom: 1%;
 	color: #fff;
+	font-size: large;
+	font-weight: 500;
 }
 
 /* Footer */
 footer {
-	padding-top: 1%;
 	padding-bottom: 1%;
-	background-color: #c7956d;
 	text-align: center;
+	background-color: #000;
+	color: oldlace;
+}
+
+/* Pricing */
+.pricingText {
+	text-align: center;
+}
+
+.pricingText h4 {
+	animation: zoomInDown;
+	animation-duration: 1.5s;
+}
+
+.pricingText h1 {
+	margin-top: 5%;
+	font-size: 400%;
+	font-weight: 800;
+}
+
+.pricingText p {
+	font-weight: 600;
+	font-size: 150%;
+}
+
+.or {
+	margin-top: 5%;
+}
+.download-button-pricing {
+	margin: 0% auto 0% 15%;
+}
+
+.download-button-pricing:hover {
+	background-color: #72abf7;
+	animation: rubberBand;
+	animation-duration: 0.5s;
 }
