@@ -1,0 +1,75 @@
+/* Color Palette: https://colorhunt.co/palette/219727 */
+
+/* Section 1 */
+
+#section1 {
+	background-color: #f2d974;
+	padding: 5% 0%;
+}
+
+#mainHeading {
+	margin: 5% 10% 2% 10%;
+}
+
+#mainHeading img {
+	float: left;
+	margin-right: 1.5%;
+}
+
+#mainHeading h3 {
+	top: 3%;
+	left: 10%;
+	font-family: sans-serif;
+}
+
+#headingText {
+	margin: 0% 10% 5% 10%;
+	font-weight: 900;
+	text-align: center;
+}
+
+.download-button {
+	margin: 0% 3% 0% 10%;
+}
+
+/* Section 2 */
+
+#section2 {
+	background-color: #c7956d;
+}
+
+.section2RowDiv {
+	text-align: center;
+	margin: 0% 5% 0% 5%;
+	padding: 5% 0%;
+}
+
+.section2RowDiv p {
+	font-weight: 500;
+}
+
+.section2Text {
+	display: inline-block;
+	margin: 0% 10% 0% 10%;
+}
+
+/* Section 3 */
+.carousel-inner {
+	background-color: #965d62;
+}
+
+.img-fluid {
+	width: auto;
+	height: 50vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Footer */
+footer {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #f2d974;
+	text-align: center;
+}
